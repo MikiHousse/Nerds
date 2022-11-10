@@ -124,3 +124,42 @@
     }
     }
 }
+
+.info {
+    display: grid;
+    grid-template-columns: 650px 360px;
+    margin-top: 200px;
+    gap: 150px;
+    }
+
+.about {
+    &-lead {
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 45px;
+        color: $main-color;
+    }
+    &-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        width: 650px;
+    }
+    &-bold {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: $main-color;
+        margin-top: 40px;
+    }
+    &-list {
+        &-item {
+            list-style: none;
+            margin-top: 35px;
+        }
+    }
+}
+
+// .accuracy {
+//     grid-column: 1 / auto;
+// }
